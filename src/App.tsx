@@ -1,4 +1,4 @@
-// © 2024 Malith Rukshan - https://github.com/Malith-Rukshan
+
 
 import { useState, useEffect } from 'react'
 import Arrow from './assets/Arrow'
@@ -15,9 +15,6 @@ function App() {
   const handleMouseDown = () => setIsPressed(true);
   const handleMouseUp = () => setIsPressed(false);
 
-  const openGithub = () => {
-    window.open('https://github.com/Malith-Rukshan/NotCoin-Mini-App-Clone');
-  };
 
   const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     if (energy - energyToReduce < 0) {
